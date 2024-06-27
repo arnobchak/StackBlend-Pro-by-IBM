@@ -1,0 +1,118 @@
+.editMyProfileFormBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.editMyProfileFormBorder {
+  height: auto;
+  width: 50vw;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  background-color: #fff; /* Add background color */
+  padding: 20px; /* Add padding */
+  
+}
+
+#editMyProfileFormHeading {
+  
+  text-align: center;
+  padding: 15px;
+  color: #fff;
+  background-image: linear-gradient(to right, #d51b3a, #2b1cb0);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  
+}
+
+.formInput {
+  
+  display: flex;
+  flex-direction: column; /* Ensure flex items wrap to new line if space is insufficient */
+  align-items: center;
+  
+}
+
+#editMyProfileInput,
+#empName {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#editMyProfileInput,
+#empEmail {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#editMyProfileInput,
+#mob {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#editMyProfileInput,
+#dob {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#editMyProfileInput,
+#doj {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  
+}
+
+#empName:focus {
+  outline: none;
+  border-color: #4c8bf5; /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(76, 139, 245, 0.5); /* Add box shadow on focus */
+}
+
+#empEmail:focus {
+  outline: none;
+  border-color: #4c8bf5; /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(76, 139, 245, 0.5); /* Add box shadow on focus */
+}
+
+
+#mob:focus {
+  outline: none;
+  border-color: #4c8bf5; /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(76, 139, 245, 0.5); /* Add box shadow on focus */
+}
+
+#dob:focus {
+  outline: none;
+  border-color: #4c8bf5; /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(76, 139, 245, 0.5); /* Add box shadow on focus */
+}
+
+#doj:focus {
+  outline: none;
+  border-color: #4c8bf5; /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(76, 139, 245, 0.5); /* Add box shadow on focus */
+}
+
+
+
+
+
+

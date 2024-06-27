@@ -1,0 +1,45 @@
+.mainContainer {
+  display: flex;
+  justify-content: space-around; /* This will place the components side by side with space between them */
+  align-items: flex-start; /* Align items to the start of the container */
+  padding: 20px; /* Add some padding around the container */
+}
+
+.addShiftContainer, .ShiftTable {
+  flex: 1; /* Take equal space */
+  margin: 10px; /* Add some margin around each component */
+}
+
+.addShiftContainer {
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addShiftFormBox {
+  width: 50%; /* Adjust width to take full available space */
+  background: #fff;
+  border: 1px solid #dddfe2;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  border-radius: 8px;
+  background-image: linear-gradient(to right, rgb(102, 231, 231), lemonchiffon, rgb(102, 231, 231));
+}
+
+#addShiftFormHeading {
+  text-align: center;
+  margin: 10px;
+  text-decoration: underline;
+}
+
+.addShiftDiv {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.inputAddShiftLabel {
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 5px;
+}

@@ -1,0 +1,35 @@
+#text{
+  height:535px;
+  width:50%;
+  background:#000066;
+  color:white;
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+  font-Size:30px;
+  font-Weight:bold;
+
+
+}
+
+
+
+.bodyHome{
+
+  display:flex;
+  justify-content: center;
+
+}
+
+#image{
+  height:535px;
+  width:50%;
+  background:#000066;
+
+  display:flex;
+  justify-Content:center;
+  align-Items:center;
+
+}

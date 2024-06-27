@@ -1,0 +1,216 @@
+
+
+.topNav {
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.openBtn {
+  background-color: #333;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 15px;
+  outline: none;
+  padding: 14px 16px;
+}
+
+.navItem {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+#userName {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+  color: rgb(44, 51, 185);
+}
+
+.usernameBox {
+  border: 1px solid red;
+  background-color: #333;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #dddfe2;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  z-index: 999;
+  border: 1px solid #dddfe2;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.logoutBtn {
+  background-color: #333;
+  width: 100%;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  outline: none;
+}
+
+.sidebar a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 18px;
+
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f37e7e;
+}
+
+.sidebar .closeBtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+  
+}
+
+/* When the sidebar is shown */
+.sidebar.open {
+  width: 300px;
+}
+
+/* Shift the main content when the sidebar is shown */
+#main.shifted {
+  margin-left: 250px;
+}
+
+.avatar-circle {
+  width: 50px;
+  height: 50px;
+  background-color:#64ed6b;
+  color: black;
+  border-radius: 50%;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 50px;
+  margin-right: 10px; /* Add margin-right for spacing */
+  text-align: center;
+}
+
+.user-info {
+  display: flex; /* Display avatar and name in a row */
+  align-items: center; /* Align items vertically */
+}
+
+.userNameBox {
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+  background-color: #f7f7f7;
+}
+
+#userName {
+  font-weight: bold;
+}
+
+.notificationBtn {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#main {
+  margin-top: 20px;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+#emp-dash-chart{
+  margin:30px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.emp-info{
+  display:flex;
+  gap:10px;
+  margin: 20px;
+
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 8px 15px;
+  border-radius: 5px;
+  width:250px;
+}
+
+.card-info:first-child {
+  background-color: #2962ff;
+}
+
+.card-info:nth-child(2) {
+  background-color: #ff6d00;
+}
+
+.card-info:nth-child(3) {
+  background-color: #2e7d32;
+}
+
+
+.card-info-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color:white;
+}
+
+.card-info-inner > .card_icon {
+  font-size: 25px;
+  color:white;
+}
+
+

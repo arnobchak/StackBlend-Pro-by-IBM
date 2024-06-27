@@ -1,0 +1,109 @@
+.shiftScheduleFormBody {
+  
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.shiftScheduleFormBorder {
+  height: auto;
+  width: 90vw;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  background-color: #fff; /* Add background color */
+  padding: 20px; /* Add padding */
+  
+}
+
+#shiftScheduleFormHeading {
+  text-align: center;
+  padding: 15px;
+  color: #fff;
+  background-image: linear-gradient(to right, #d51b3a, #2b1cb0);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  
+}
+
+.shiftScheduleFormInput {
+  
+  display: flex;
+  flex-direction: column; /* Ensure flex items wrap to new line if space is insufficient */
+  align-items: center;
+  
+}
+
+#formEmployeeIdInput,
+.formDateRangeInput {
+  width: 50%;
+  padding: 10px; /* Add padding */
+}
+
+#formEmployeeIdInput select,
+.formDateRangeInput input[type="date"] {
+  width: calc(100% - 20px); /* Adjust width to accommodate padding */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px; /* Add margin */
+}
+
+#formEmployeeIdInput select:focus,
+.formDateRangeInput input[type="date"]:focus {
+  outline: none;
+  border-color: #4c8bf5; /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(76, 139, 245, 0.5); /* Add box shadow on focus */
+}
+
+.scheduleFormShiftInput {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  
+  align-items: center;
+}
+
+.shiftScheduleFormDayColumn {
+  
+  padding: 10px;
+  
+  text-align: center;
+  margin: 0 10px;
+}
+
+.shiftScheduleFormDayColumn label {
+  display: block;
+
+  margin-bottom: 5px;
+}
+
+.shiftScheduleFormDayColumn select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style select when it's focused */
+.shiftScheduleFormDayColumn select:focus {
+  outline: none;
+  border-color: #4c8bf5; /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(76, 139, 245, 0.5); /* Add box shadow on focus */
+
+}
+
+/* Style select options */
+.shiftScheduleFormDayColumn select option {
+  padding: 8px 12px;
+}
+
+/* Style select when an option is hovered */
+.shiftScheduleFormDayColumn select option:hover {
+  background-color: #f0f0f0;
+}
+
+

@@ -1,0 +1,36 @@
+/* custom.css */
+
+.container-custom {
+  background-color: #f0f8ff; /* AliceBlue */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-heading {
+  color: #007bff; /* Bootstrap primary color */
+  margin-bottom: 1.5rem;
+}
+
+.btn-custom {
+  background-color: #28a745; /* Bootstrap success color */
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #218838; /* Darker success color */
+}
+
+.form-label-custom {
+  color: #0056b3; /* Darker primary color */
+  font-weight: bold;
+}
+
+.form-control-custom, .form-select-custom {
+  border-color: #0056b3; /* Darker primary color */
+}
+
+.form-control-custom:focus, .form-select-custom:focus {
+  border-color: #007bff; /* Bootstrap primary color */
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}

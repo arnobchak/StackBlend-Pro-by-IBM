@@ -1,0 +1,51 @@
+
+.inputNewEmployeeContainer{
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.inputNewEmployeeFormBox{
+  width: 40vw;
+  background: #fff;
+  border: 1px solid #dddfe2;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  border-radius: 8px;
+  background-image: linear-gradient(to right,rgb(234, 241, 241),lemonchiffon,rgb(234, 241, 241));
+  
+
+
+
+}
+
+#inputNewEmployeeFormHeading{
+  text-align: center;
+  margin: 10px;
+  text-decoration: underline;
+  
+  
+}
+
+.inputNewEmployeeDiv{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+
+}
+
+.inputNewEmployeeLabel{
+  
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 5px;
+
+}
+
+
+
+

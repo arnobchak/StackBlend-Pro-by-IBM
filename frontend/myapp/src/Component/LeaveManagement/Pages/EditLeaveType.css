@@ -1,0 +1,20 @@
+.bg-pink {
+  background-color: pink;
+}
+
+.table thead th {
+  text-align: center;
+  background-color: pink;
+}
+
+.table td, .table th {
+  vertical-align: middle;
+}
+
+.btn-sm {
+  padding: 10px;
+}
+
+.form-control-sm {
+  padding: 5px;
+}

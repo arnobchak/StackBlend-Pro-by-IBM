@@ -1,0 +1,144 @@
+body {
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.topNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background-color: #333;
+  color: rgb(255, 255, 255);
+}
+
+.topNav .openBtn {
+  font-size: 18px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.topNav .navItem {
+  display: flex;
+  align-items: center;
+}
+
+.topNav .navItem #symbol {
+  margin-right: 5px;
+  height: 45px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 250px;
+  background-color: #333;
+  color: white;
+  overflow-y: auto;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+.userNameBox {
+  padding: 15px;
+  background-color: #444;
+}
+
+.userNameBox .user-info {
+  display: flex;
+  align-items: center;
+}
+
+.userNameBox .avatar-circle {
+  background-color: rgb(205, 50, 202);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+.list-group {
+  padding: 0;
+}
+
+.list-group-item {
+  background-color:white;
+  color:black;
+  border: none;
+  padding: 15px;
+}
+
+.list-group-item:hover {
+  background-color: #f5f0e8;
+}
+
+
+.list-group-item ul {
+  padding-left: 15px;
+}
+
+.list-group-item ul .list-group-item {
+  background-color: white;
+}
+
+.list-group-item ul .list-group-item:hover {
+  background-color: #e4ebea;
+}
+
+.logoutBtn {
+  width: 100%;
+  padding: 15px;
+  background-color: #444;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+}
+
+.logoutBtn:hover {
+  background-color: #555;
+}
+
+#main {
+  transition: margin-left 0.3s;
+  padding: 20px;
+  margin-left: 0;
+}
+
+#main.shifted {
+  margin-left: 250px;
+}
+
+#admin-profile-table {
+  background-color: white;
+  margin: 15px;
+  border: 1px solid #dddfe2;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+}
+
+#chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 15px;
+  border: 1px solid #dddfe2;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+}

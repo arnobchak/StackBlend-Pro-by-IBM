@@ -1,0 +1,40 @@
+#title{
+text-align: center;
+color:white;
+background-color: rgb(128, 87, 0);
+margin-bottom: 20px;
+padding: 10px;
+}
+
+
+.shiftScheduleTable{
+  width: 100vw;
+  display:flex;
+  justify-content: center;
+}
+
+.shiftScheduleTableContainer{
+width:fit-content;
+height:fit-content;
+  
+}
+
+.display{
+  height: 50px;
+  width: 100%;
+  border: 1px solid gray;
+  padding-top: 10px;
+  margin-bottom: 20px;
+
+  background-color: rgb(243, 218, 183);
+  color:black;
+  font-weight: 500;
+
+  
+  display: flex;
+  border-radius: 5px;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+

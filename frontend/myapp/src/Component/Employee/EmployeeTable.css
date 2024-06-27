@@ -1,0 +1,19 @@
+
+.employeeTable{
+  width: 100vw;
+  display:flex;
+  justify-content: center;
+  
+
+}
+
+
+
+
+
+.employeeTableContainer{
+width:fit-content;
+height:fit-content;
+  
+}
+
