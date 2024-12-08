@@ -1,5 +1,5 @@
-Stackblend Pro - An HR WebApp
-Overview
+## Stackblend Pro - An HR WebApp
+## Overview
 Stackblend Pro is a feature-rich HR management application built with the MERN Stack (MongoDB, Express.js, React.js, and Node.js). It provides tools for shift scheduling, leave management, and report generation, streamlining HR workflows effectively.
 
 Features
