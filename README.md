@@ -27,8 +27,8 @@ Ensure you have the following installed:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/stackblend-pro.git
-cd stackblend-pro
+git clone https://github.com/arnobchak/StackBlend-Pro-by-IBM.git
+cd StackBlend-Pro-by-IBM
 ```
 
 ### 2. Frontend Setup
