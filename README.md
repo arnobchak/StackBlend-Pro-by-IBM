@@ -1,78 +1,80 @@
-## Stackblend Pro - An HR WebApp
+# Stackblend Pro - An HR WebApp
+
 ## Overview
 Stackblend Pro is a feature-rich HR management application built with the MERN Stack (MongoDB, Express.js, React.js, and Node.js). It provides tools for shift scheduling, leave management, and report generation, streamlining HR workflows effectively.
 
-Features
-Shift Scheduling: Manage and assign employee shifts with ease.
-Leave Management: Allow employees to request and track leaves seamlessly.
-Report Generation: Generate print-ready reports for attendance, shifts, and leaves.
-Data Visualization: Interactive charts and graphs for insights.
-Email Notifications: Notify employees via email for leave approvals, shift updates, and more.
-Secure User Authentication: Role-based access control using JWT and bcrypt.
-Tech Stack
-Frontend: React.js, Bootstrap, Axios, Recharts, Chart.js
-Backend: Node.js, Express.js, MongoDB
-Other Tools: Nodemailer, JWT, dotenv
-Installation Guide
-Prerequisites
-Ensure you have the following installed:
+## Features
+- **Shift Scheduling**: Manage and assign employee shifts with ease.
+- **Leave Management**: Allow employees to request and track leaves seamlessly.
+- **Report Generation**: Generate print-ready reports for attendance, shifts, and leaves.
+- **Data Visualization**: Interactive charts and graphs for insights.
+- **Email Notifications**: Notify employees via email for leave approvals, shift updates, and more.
+- **Secure User Authentication**: Role-based access control using JWT and bcrypt.
 
-Node.js (v16 or higher)
-MongoDB
-1. Clone the Repository
-bash
-Copy code
+## Tech Stack
+- **Frontend**: React.js, Bootstrap, Axios, Recharts, Chart.js
+- **Backend**: Node.js, Express.js, MongoDB
+- **Other Tools**: Nodemailer, JWT, dotenv
+
+---
+
+## Installation Guide
+
+### Prerequisites
+Ensure you have the following installed:
+- **Node.js** (v16 or higher)
+- **MongoDB**
+
+### 1. Clone the Repository
+```bash
 git clone https://github.com/your-username/stackblend-pro.git
 cd stackblend-pro
-2. Frontend Setup
+```
+
+### 2. Frontend Setup
 Navigate to the frontend directory:
-
-bash
-Copy code
+```bash
 cd frontend
+```
 Install dependencies:
-
-bash
-Copy code
+```bash
 npm install
+```
 Start the frontend server:
-
-bash
-Copy code
+```bash
 npm start
-The app will run at: http://localhost:3000.
+```
+The app will run at: [http://localhost:3000](http://localhost:3000).
 
-3. Backend Setup
+### 3. Backend Setup
 Navigate to the backend directory:
-
-bash
-Copy code
+```bash
 cd ../backend
+```
 Install dependencies:
-
-bash
-Copy code
+```bash
 npm install
-Create a .env file in the backend folder with the following:
-
-env
-Copy code
+```
+Create a `.env` file in the backend folder with the following content:
+```env
 PORT=5000
 MONGO_URI=your_mongo_database_url
 JWT_SECRET=your_jwt_secret
 EMAIL_USER=your_email@example.com
 EMAIL_PASS=your_email_password
+```
 Start the backend server:
-
-bash
-Copy code
+```bash
 npm run server
-The backend server will run at: http://localhost:5000.
+```
+The backend server will run at: [http://localhost:5000](http://localhost:5000).
 
-Dependencies
-Frontend Dependencies
-json
-Copy code
+---
+
+## Dependencies
+
+### Frontend Dependencies
+```json
 {
   "@emailjs/browser": "^4.3.3",
   "@testing-library/jest-dom": "^5.17.0",
@@ -93,9 +95,10 @@ Copy code
   "style-components": "^0.1.0",
   "web-vitals": "^2.1.4"
 }
-Backend Dependencies
-json
-Copy code
+```
+
+### Backend Dependencies
+```json
 {
   "bcrypt": "^5.1.1",
   "body": "^5.1.0",
@@ -109,28 +112,41 @@ Copy code
   "nodemon": "^3.1.0",
   "parser": "^0.1.4"
 }
-Project Structure
-Frontend (/frontend)
-src/: Contains React components, routes, and services.
-public/: Static files like index.html.
-Backend (/backend)
-models/: Mongoose models for database schemas.
-routes/: Express routes for API endpoints.
-controllers/: Business logic for routes.
-Contributing
-Fork the repository.
-Create a new branch:
-bash
-Copy code
-git checkout -b feature/your-feature-name
-Commit your changes:
-bash
-Copy code
-git commit -m "Add your message here"
-Push to the branch:
-bash
-Copy code
-git push origin feature/your-feature-name
-Open a Pull Request.
-License
+```
+
+---
+
+## Project Structure
+
+### Frontend (/frontend)
+- **src/**: Contains React components, routes, and services.
+- **public/**: Static files like `index.html`.
+
+### Backend (/backend)
+- **models/**: Mongoose models for database schemas.
+- **routes/**: Express routes for API endpoints.
+- **controllers/**: Business logic for routes.
+
+---
+
+## Contributing
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+5. Open a Pull Request.
+
+---
+
+## License
 This project is licensed under the MIT License.
+
